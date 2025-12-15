@@ -1,0 +1,39 @@
+﻿@model GudangWebApp.Models.Barang
+
+<h2>Edit Barang</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-2">
+        <label asp-for="KodeBarang"></label>
+        <input asp-for="KodeBarang" class="form-control" />
+        <span asp-validation-for="KodeBarang" class="text-danger"></span>
+    </div>
+
+    <div class="mb-2">
+        <label asp-for="NamaBarang"></label>
+        <input asp-for="NamaBarang" class="form-control" />
+        <span asp-validation-for="NamaBarang" class="text-danger"></span>
+    </div>
+
+    <div class="mb-2">
+        <label asp-for="JumlahStok"></label>
+        <input asp-for="JumlahStok" type="number" class="form-control" />
+        <span asp-validation-for="JumlahStok" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Kategori"></label>
+        <input asp-for="Kategori" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Batal</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

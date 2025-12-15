@@ -1,0 +1,42 @@
+﻿@model List<GudangWebApp.Models.Barang>
+
+<h2>Daftar Barang Gudang</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Kode Barang</th>
+            <th>Nama Barang</th>
+            <th>Jumlah Stok</th>
+            <th>Kategori</th>
+            <th>Aksi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.KodeBarang</td>
+                <td>@item.NamaBarang</td>
+                <td>@item.JumlahStok</td>
+                <td>@item.Kategori</td>
+                <td>
+                    <a asp-action="Edit"
+                       asp-route-id="@item.Id"
+                       class="btn btn-warning btn-sm">
+                        Edit
+                    </a>
+
+                    <a asp-action="Delete"
+                       asp-route-id="@item.Id"
+                       class="btn btn-danger btn-sm"
+                       onclick="return confirm('Yakin ingin menghapus barang ini?');">
+                        Hapus
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Tambah Barang</a>

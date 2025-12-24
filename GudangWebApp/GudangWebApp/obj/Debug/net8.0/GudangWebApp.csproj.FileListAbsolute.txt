@@ -253,7 +253,6 @@ C:\Users\Saripudin\source\repos\PBO_net\PraktikumGudangWebApp\GudangWebApp\Gudan
 C:\Users\Saripudin\source\repos\PBO_net\PraktikumGudangWebApp\GudangWebApp\GudangWebApp\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Saripudin\source\repos\PBO_net\PraktikumGudangWebApp\GudangWebApp\GudangWebApp\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Saripudin\source\repos\PBO_net\PraktikumGudangWebApp\GudangWebApp\GudangWebApp\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Saripudin\source\repos\PBO_net\PraktikumGudangWebApp\GudangWebApp\GudangWebApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Saripudin\source\repos\PBO_net\PraktikumGudangWebApp\GudangWebApp\GudangWebApp\obj\Debug\net8.0\GudangWe.4009FB27.Up2Date
 C:\Users\Saripudin\source\repos\PBO_net\PraktikumGudangWebApp\GudangWebApp\GudangWebApp\obj\Debug\net8.0\GudangWebApp.dll
 C:\Users\Saripudin\source\repos\PBO_net\PraktikumGudangWebApp\GudangWebApp\GudangWebApp\obj\Debug\net8.0\refint\GudangWebApp.dll

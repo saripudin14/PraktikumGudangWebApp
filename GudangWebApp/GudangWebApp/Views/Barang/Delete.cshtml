@@ -1,0 +1,32 @@
+@model GudangWebApp.Models.Barang
+
+<h2>Hapus Barang</h2>
+
+<div class="alert alert-danger">
+    <h4>⚠️ Konfirmasi Penghapusan</h4>
+    <p>Apakah Anda yakin ingin menghapus barang ini?</p>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Kode Barang</dt>
+            <dd class="col-sm-9">@Model.KodeBarang</dd>
+
+            <dt class="col-sm-3">Nama Barang</dt>
+            <dd class="col-sm-9">@Model.NamaBarang</dd>
+
+            <dt class="col-sm-3">Jumlah Stok</dt>
+            <dd class="col-sm-9">@Model.JumlahStok</dd>
+
+            <dt class="col-sm-3">Kategori</dt>
+            <dd class="col-sm-9">@(string.IsNullOrEmpty(Model.Kategori) ? "-" : Model.Kategori)</dd>
+        </dl>
+    </div>
+</div>
+
+<form asp-action="Delete" method="post" class="mt-3">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Ya, Hapus</button>
+    <a asp-action="Index" class="btn btn-secondary">Batal</a>
+</form>

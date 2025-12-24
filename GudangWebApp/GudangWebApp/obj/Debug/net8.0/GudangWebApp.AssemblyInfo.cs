@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GudangWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8fc70af954aa42aeb2733a3f7d74dd2d9d4a890")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b70dfd19d8ba619487970bded2bdfd264ac7d27f")]
 [assembly: System.Reflection.AssemblyProductAttribute("GudangWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GudangWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
